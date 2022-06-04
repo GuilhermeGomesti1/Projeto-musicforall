@@ -84,6 +84,7 @@ main img.logo {
     display: block;
 margin: auto;
 padding: 40px 80px 40px 80px;
+width: 20%;
 
 
 }
@@ -105,13 +106,13 @@ padding-top: 20px;
 padding-bottom: 40px;
 
 }
-main > img.cursos {padding: 40px ;
+main picture > img.cursos {padding: 40px ;
     display: block;
 margin: auto;
 box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.185)
 ;border-radius: 10px;
 margin-bottom: 30px;
-width: 100%;
+width: 50%;
 }
 
 
