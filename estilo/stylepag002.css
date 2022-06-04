@@ -1,0 +1,112 @@
+@charset "UTF-8"
+
+:root {
+    --cor0: #152C66;
+    --cor1:#7798EA;
+    --cor2:#3064E6;
+    --cor3:#5C6273;
+    --cor4:#264DB3;
+    
+    }
+    *{ margin: 0px;
+        padding: 0px;}
+
+    body {background-image: linear-gradient(to bottom,#152C66, black );}
+
+    header  {background-image: linear-gradient(to bottom, #7798EA, #264db3);
+        padding: 30px;
+        text-align: center;
+        min-height: 150px;
+        text-align: center;
+        padding-top: 40px; 
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);}
+
+        header > h1 {
+            color: white;
+            font-size: 4em;
+            padding-top: 10px;
+            font-family:'AlphaMusicMan.ttf' ,'Times New Roman', Times, serif;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+        }
+
+
+
+         nav {
+            background-color: #264DB3;
+            padding: 10px;
+            box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356); 
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+            border-bottom-left-radius: 8px;
+            border-bottom-right-radius: 8px;
+        
+        }
+        
+        nav > a {font-family: Arial, Helvetica, sans-serif;
+            padding: 10px;
+            color: white;
+            font-weight: bold;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);}
+        
+        nav > a:hover {
+            background-color: #7798EA;
+        color:white;
+        
+        }
+
+
+    main { min-width: 300px;
+        max-width: 1000px;
+        background-color: black; 
+        padding-top: 5px;
+        box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.356);
+        margin: auto;
+        margin-bottom: 150px;}
+
+    main > h1 {
+        color: white;
+        font-size: 4em;
+        padding-top: 10px;
+        font-family:'AlphaMusicMan.ttf' ,'Times New Roman', Times, serif;
+        text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+    }
+
+    main > p {
+        color: white;
+        text-align: center;
+        font-size: 1.5em;
+        padding-left: 10px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        
+        }
+
+        div.video{
+            background-color:black;
+            
+            padding: 20px;
+            position: relative;
+            padding-bottom: 58%;
+            border-radius: 5px;
+        
+        }
+        
+        div.video iframe{
+            border-radius: 5px;
+            position: absolute;
+            top: 5% ;
+            left: 5%;
+            width: 80%;
+            height: 80%;}
+
+            footer{
+                background-color: #152C66;
+                color: white;
+                text-align: center;
+                font-size: 0.8em;
+                padding: 5px;
+                
+                }
+        
