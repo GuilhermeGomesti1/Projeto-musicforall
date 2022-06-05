@@ -1,5 +1,14 @@
 @charset "UTF-8"
 
+
+@font-face {
+    font-family:'music' ; 
+    src: url(/AlphaMusicMan.ttf) format('truetype');
+    font-weight: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
 :root {
     --cor0: #152C66;
     --cor1:#7798EA;
@@ -7,6 +16,8 @@
     --cor3:#5C6273;
     --cor4:#264DB3;
     
+    --fonte-music: 'music','cursive';
+    --fonte-padrão: 'Roboto Slab', serif;
     }
     *{ margin: 0px;
         padding: 0px;}
@@ -19,14 +30,15 @@
         min-height: 150px;
         text-align: center;
         padding-top: 40px; 
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);}
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+font-family: var(--fonte-music),'Roboto Slab', serif;}
 
         header > h1 {
             color: white;
             font-size: 4em;
             padding-top: 10px;
-            font-family:'AlphaMusicMan.ttf' ,'Times New Roman', Times, serif;
             text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.39);
+            font-family: var(--fonte-music),'Roboto Slab', serif;
         }
       
 
